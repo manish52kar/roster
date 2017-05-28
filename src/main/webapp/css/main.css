@@ -1,0 +1,42 @@
+/* enable absolute positioning */
+.inner-addon {
+    position: relative;
+}
+
+/* style icon */
+.inner-addon .glyphicon {
+  position: absolute;
+  padding: 10px;
+  pointer-events: none;
+}
+
+/* align icon */
+.left-addon .glyphicon  { left:  48px; top:-3px}
+.left-addon1 .glyphicon  { left: 67px; top:-3px}
+.right-addon .glyphicon {left:67px; top:-3px;}
+
+/* add padding  */
+.left-addon input  { padding-left:  30px; }
+.left-addon1 input  { padding-left:  30px; }
+.right-addon input { padding-right: 30px; }
+.inner-buttons{float:right;}
+#example_wrapper{margin-top:20px;}
+body{padding-top:50px;}
+.col-lg-12.home {
+    width: 100%;
+    background: #f7f7f7;
+    padding: 15px;
+    border-radius: 14px;
+}
+
+/* modal css */
+label, input { display:block; }
+    input.text { margin-bottom:12px; width:95%; padding: .4em; }
+    fieldset { padding:0; border:0; margin-top:25px; }
+    h1 { font-size: 1.2em; margin: .6em 0; }
+    div#users-contain { width: 350px; margin: 20px 0; }
+    div#users-contain table { margin: 1em 0; border-collapse: collapse; width: 100%; }
+    div#users-contain table td, div#users-contain table th { border: 1px solid #eee; padding: .6em 10px; text-align: left; }
+    .ui-dialog .ui-state-error { padding: .3em; }
+    .validateTips { border: 1px solid transparent; padding: 0.3em; }
+  
